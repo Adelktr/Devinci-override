@@ -6,6 +6,15 @@
 
   "description": "Vivre mieux avec son portail !",
 
+  "brower_action" : {
+      "default_icon": "img/hqdefault.png",
+      "default_popup": "index.html"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
   "content_scripts": [
     {
       "matches": ["*://*.leonard-de-vinci.net/*"],
