@@ -14,6 +14,10 @@
     margin-top: 15px;
 }
 
+.alert{
+    padding: 8px 24.5px 8px 24.5px !important;
+}
+
 @media screen and (max-width: 768px){
     .tools{
         display: flex;
@@ -33,6 +37,15 @@
     }
     .fc-left{
         margin-bottom: 1em;
+    }
+
+    .pull-right{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .alert p{
+        text-align: center;
     }
 }
 
