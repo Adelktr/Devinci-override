@@ -10,7 +10,7 @@
     {
       "matches": ["*://*.leonard-de-vinci.net/*"],
       "js": ["js/override-devinci.js"],
-      "css": ["style/override-devinci.css"]
+      "css": ["style/override-devinci.css", "style/style-edt.css"]
     }
   ]
 

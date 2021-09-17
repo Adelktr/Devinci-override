@@ -1,0 +1,51 @@
+.tools{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tools a{
+    width: 180px;
+    margin: 5px;
+}
+
+.row-fluid{
+    margin-top: 15px;
+}
+
+.alert{
+    padding: 8px 24.5px 8px 24.5px !important;
+}
+
+@media screen and (max-width: 768px){
+    .tools{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+
+    }
+
+    .tools a{
+        width: 75%;
+    }
+
+    .fc-toolbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fc-left{
+        margin-bottom: 1em;
+    }
+
+    .pull-right{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .alert p{
+        text-align: center;
+    }
+}
+
